@@ -1,0 +1,16 @@
+### TEST GET/WEBSITE
+GET http://localhost:4000
+
+### TEST GET/SNACKLIST
+GET http://localhost:4000/snacklist 
+
+### TEST GET/DATA
+GET http://localhost:4000/api/data
+
+### TEST POST/DATA
+POST http://localhost:4000/api/data
+Content-Type: application/json
+
+{
+    "name": "Dabi"
+}
